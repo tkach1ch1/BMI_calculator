@@ -1,5 +1,6 @@
 .main-box {
     border: 3px solid #2a2ae3;
+    background-color: #ffffff;
 }
 
 .BMI_header {
@@ -8,3 +9,76 @@
     background: #2a2ae3;
     color: #fff;
 }
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+}
+
+.firstField {
+    margin-bottom: 60px;
+}
+
+.secondField {
+    margin-top: 60px;
+}
+
+.parameters {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.values {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #606060
+}
+
+.number_button {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+hr {
+   margin: 0 20px;
+    border-radius: 10px;
+    border-color: #7e7e7e;
+}
+
+.button_text {
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.button_text:hover {
+    text-decoration: underline;
+
+}
+
+.calculate-button {
+    text-align: center;
+    padding: 13px;
+    width: 130px;
+    background-color: #025e02;
+    border-radius: 3px;
+    border-width: 0;
+    box-shadow: 0 3px;
+}
+
+.calculate-button:hover {
+    border-style: inherit;
+    background-color: #135213;
+
+}
+
+
