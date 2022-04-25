@@ -73,6 +73,7 @@ hr {
     border-radius: 3px;
     border-width: 0;
     box-shadow: 0 3px;
+    cursor: pointer;
 }
 
 .calculate-button:hover {
