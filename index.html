@@ -3,8 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>BMI_calculator</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-
+<div class="container">
+    <header id="header">
+        <div class="headline">
+            <h1>BMI healthy weight calculator</h1>
+        </div>
+        <div class="subheader">
+            <h2>Use this calculator to check your body mass index (BMI) and find out if you're a healthy weight.</h2>
+        </div>
+    </header>
+    <main id="main">
+        <div class="main-box box-position">
+            <div class="BMI_header">
+              <h3>BMI calculator</h3>
+            </div>
+            <div class="fields firstField">
+                <span class="parameters">Height</span>
+                <span class="values">Centimetres</span>
+                <label><input type="number" class="number_button" required></label>
+            </div>
+            <div class="fields secondField">
+                <span class="parameters">Weight</span>
+                <span class="values">Kilograms</span>
+                <label><input type="number" class="number_button" required></label>
+            </div>
+            <div>
+                <label><input type="submit" class="calculate-button" value="Calculate"></label>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="./js/script.js"></script>
 </body>
+
+
 </html>
