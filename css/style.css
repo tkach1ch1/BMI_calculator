@@ -5,12 +5,13 @@
 
 body {
     background-color: lightgrey;
-
 }
 
 .container {
     max-width: 750px;
-    margin: 50px auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
 }
 

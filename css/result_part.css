@@ -1,0 +1,28 @@
+.outcome {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.result-field {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 80px ;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 710px) {
+    img {
+
+        width: 50%;
+        height: 125px;
+    }
+}
