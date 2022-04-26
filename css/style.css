@@ -26,4 +26,9 @@ body {
     margin-bottom: 30px;
 }
 
+@media (max-width: 550px) {
+    .subheader {
+        text-align: center;
+    }
+}
 

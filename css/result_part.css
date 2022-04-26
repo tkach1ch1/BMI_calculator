@@ -9,14 +9,13 @@
 
 .result-field {
     margin: 0 80px ;
-    line-height: 1.5;
+    line-height: 2;
     text-align: center;
     width: 250px;
 
 
 }
 .result-field .result-text {
-
     font-size: 30px;
     font-weight: bold;
 
@@ -24,18 +23,19 @@
 
 #result {
     font-size: 50px;
+}
 
-
+#status {
+    font-size: 30px;
 }
 
 img {
-    width: 100%;
+    width: 300px;
     height: auto;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 650px) {
     img {
-
 
     }
 }
