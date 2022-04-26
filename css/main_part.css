@@ -18,6 +18,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 20px;
+    width: 180px;
 
 }
 
@@ -41,6 +42,12 @@
     color: #606060
 }
 
+.warning_text {
+    font-size: 21px;
+    padding-bottom: 25px;
+    color: red;
+}
+
 .number_button {
     display: inline-block;
     height: 40px;
@@ -48,6 +55,11 @@
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
+}
+
+.number_button:focus {
+    outline: 3px solid yellow;
+    border: 3px solid #181818;
 }
 
 

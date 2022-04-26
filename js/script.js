@@ -14,14 +14,17 @@ function BMI_calculation () {
     const warning_for_weight = document.querySelector(".warning_for_weight")
 
     if (height === "" || isNaN(height)) {
-       warning_for_height.innerHTML = "Please enter height"
+       warning_for_height.innerHTML = "Please enter height!"
        document.getElementById("height").style.border = "2px solid red"
 
     } else if (weight === "" || isNaN(weight)) {
-        warning_for_weight.innerHTML = "Please enter weight"
+        warning_for_weight.innerHTML = "Please enter weight!"
         document.getElementById("weight").style.border = "2px solid red"
+
     } else {
         let bmi = (weight / ((height / 100) **2)).toFixed(2)
         result.innerHTML = bmi;
     }
 }
+
+

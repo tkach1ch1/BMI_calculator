@@ -8,14 +8,27 @@
 }
 
 .result-field {
-    font-size: 35px;
-    font-weight: bold;
     margin: 0 80px ;
-    width:200px;
+    line-height: 1.5;
+    text-align: center;
+    width: 250px;
+
+
+}
+.result-field .result-text {
+
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#result {
+    font-size: 50px;
+
+
 }
 
 img {
-    position: relative;
     width: 100%;
     height: auto;
 }
