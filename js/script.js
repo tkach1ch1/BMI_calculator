@@ -2,11 +2,8 @@
 const calculate_button = document.querySelector(".calculate-button")
 calculate_button.addEventListener('click', BMI_calculation)
 
-
-
-
-
 function BMI_calculation () {
+    let bmi;
     let height = parseInt(document.getElementById("height").value)
     let weight = parseInt(document.getElementById("weight").value)
     const result = document.getElementById("result");
@@ -21,7 +18,26 @@ function BMI_calculation () {
         warning_for_weight.innerHTML = "Please enter weight"
         document.getElementById("weight").style.border = "2px solid red"
     } else {
-        let bmi = (weight / ((height / 100) **2)).toFixed(2)
+        bmi = (weight / ((height / 100) **2)).toFixed(2)
         result.innerHTML = bmi;
     }
+
+    const status = document.getElementById('status')
+
+    switch (true) {
+        case (bmi < 18.5):
+            status.innerText = 'Underweight';
+        break;
+        case (18.5 <= bmi && bmi <= 24.9):
+            status.innerText = 'Normal weight';
+        break;
+        case (25.0 <= bmi && bmi <= 29.9):
+            status.innerText = 'Overweight';
+        break;
+        case (bmi > 30.0):
+            status.innerText = 'Overweight';
+        break;
+    }
+
 }
+
