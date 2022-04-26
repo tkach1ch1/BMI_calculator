@@ -11,6 +11,7 @@
     font-size: 35px;
     font-weight: bold;
     margin: 0 80px ;
+    width:200px;
 }
 
 img {
@@ -22,7 +23,6 @@ img {
 @media screen and (max-width: 710px) {
     img {
 
-        width: 50%;
-        height: 125px;
+
     }
 }

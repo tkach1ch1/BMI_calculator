@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>BMI_calculator</title>
@@ -24,24 +24,25 @@
             </div>
             <div class="fields firstField">
                 <span class="parameters">Height</span>
-                <span class="values">Centimetres</span>
-                <label><input type="number" id="firstInput" class="number_button" min="0" required></label>
+                <span class="values">Centimetres</span><span class="warning_for_height"></span>
+                <label><input type="number" id="height" class="number_button height_button" min="0" required></label>
 
             </div>
             <hr>
             <div class="fields secondField">
                 <span class="parameters">Weight</span>
-                <span class="values">Kilograms</span>
-                <label><input type="number" id="secondInput" class="number_button" min="0" required></label>
+                <span class="values">Kilograms</span><span class="warning_for_weight"></span>
+                <label><input type="number" id="weight" class="number_button" min="0" required></label>
             </div>
             <div>
-                <label><input type="submit" class=" fields calculate-button button_text" value="Calculate"></label>
+                <label><input type="submit" class="fields calculate-button button_text" value="Calculate"></label>
             </div>
         </div>
     </main>
     <div id="BMI_outcome" class="outcome">
         <div class="result-field">
             <span>Your result</span>
+            <span id="result"></span>
         </div>
         <div class="table-field">
             <img  class="weights-table" src="\img\table.png" alt="BMI_table">
