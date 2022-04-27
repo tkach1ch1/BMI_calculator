@@ -2,10 +2,6 @@
 const calculate_button = document.querySelector(".calculate-button")
 calculate_button.addEventListener('click', BMI_calculation)
 
-
-
-
-
 function BMI_calculation () {
     let bmi;
     let height = parseInt(document.getElementById("height").value)
